@@ -12,10 +12,10 @@ class ContactSeeder extends Seeder
         Contact::truncate();
 
         Contact::create([
-            'cs_whatsapp' => '6281234567890',       // Nomor WA CS Pelayanan
-            'donation_whatsapp' => '6289876543210', // Nomor WA Humas Konfirmasi Donasi (Baru)
-            'bca_account' => '3930283575',          // Rekening BCA
-            'bca_name' => 'Amazing Facts Indonesia' // Atas Nama Rekening
+            'cs_whatsapp' => '6282253907947',       // Chat CS
+            'donation_whatsapp' => '628562515151',  // Mitra donasi
+            'bca_account' => '3930283575',
+            'bca_name' => 'Amazing Facts Indonesia',
         ]);
     }
 }
